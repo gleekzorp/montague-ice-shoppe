@@ -1,9 +1,14 @@
+$main-text-color: #707070;
+$header-blue: #55AAFF;
+$main-text-font: ‘Montserrat’, sans-serif;
+$header-font: ‘Roboto’, sans-serif;
+
 * {
   box-sizing: border-box;
 }
 
-.App {
-  max-width: 420px;
+.Contact-Form {
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -40,4 +45,25 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.Contact-Container > h2 {
+  color: $header-blue;
+  display: flex;
+  justify-content: center;
+  border-bottom: 30px solid transparent;
+}
+
+.Page-Elements {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  font-family: $main-text-font;
+  color: $main-text-color;
+}
+
+.Contact-Info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
 }
