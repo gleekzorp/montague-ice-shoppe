@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MainMenuPage from './MenuPage/main'
+import MainMenuPage from './menu/main';
 
 
 export default class App extends Component {
