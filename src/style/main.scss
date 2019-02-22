@@ -87,19 +87,45 @@ body {
   
 .homeWrapper {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     justify-content: center;
     align-items: center;
     margin: 0;
     width: 80vw;
 }
 
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .homeContent > h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: $header-blue;
     font-family: $header-font;
+    font-size: 6em;
+}
+
+.homeContent > h1:before,
+h1:after {
+   content: '';
+   border-top: 2px solid;
+   margin: 0 20px 0 0;
+   flex: 1 0 20px;
+}
+
+.homeContent > h1:after {
+   margin: 0 0 0 20px;
 }
 
 .homeContent > p {
     color: $main-text-color;
     font-family: $main-text-font;
+    font-size: 2em;
 }
