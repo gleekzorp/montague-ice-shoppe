@@ -1,6 +1,9 @@
 @import './menuContainer.scss';
 @import './menuItem.scss';
 @import "./about.scss";
+@import "./navigation-styles.scss";
+
+
 
 
 $main-text-color: #707070;
@@ -39,20 +42,7 @@ body {
     justify-items: center;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
-.blue-logo img {
-    width: 100%;
-    height: 50px;
-}
-
-.links {
-  
-}
  
 .footer {
     background-color: #55AAFF;
@@ -80,10 +70,7 @@ body {
     justify-content: space-around;
 }
 
-.line_1, .line_2 {
-    height: 50px;
-    width: 100%;
-}
+
   
 .homeWrapper {
     display: grid;
