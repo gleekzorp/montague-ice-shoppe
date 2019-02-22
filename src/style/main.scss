@@ -1,3 +1,7 @@
+@import './menuContainer.scss';
+@import './menuItem.scss';
+@import "./about.scss";
+
 html {
     font-size: 62.5%; // 1rem is 10px
 }
@@ -51,5 +55,14 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+.homeWrapper {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 1000px;
 }
 
