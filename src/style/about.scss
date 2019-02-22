@@ -1,0 +1,25 @@
+.about-page {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.about-module {
+    display: flex;
+    
+}
+
+.about-page > .about-module img {
+    width: 100px;
+    height: 100%;
+    margin: 20px;
+}
+
+.about-text, .video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
