@@ -19,7 +19,7 @@ export default function(){
                     <div className="head1">
                         <h1 className="about-header">Here is the history of our store</h1>
                     </div>
-                    <div id="store-text">
+                    <div id="text">
                         <p>Summer, next time we're hiding in a chlorkian echo nest, can you do me a favour and turn your ringer off?! I just killed my family! <br/>
                             
                         I don’t care who they were! They're robots Morty! It's okay to shoot them! They're just robots! Alien Invasion Tomato Monster Mexican Armada Brothers Who Are Just Regular Brothers Running In A Van From An Asteroid And All Sorts Of Things: The Movie. <br/>
@@ -41,7 +41,7 @@ export default function(){
                     <div className="head2">
                         <h1 className="about-header">Here is a brief history of ice cream</h1>
                     </div>
-                    <p id="history-text">Summer, next time we're hiding in a chlorkian echo nest, can you do me a favour and turn your ringer off?! I just killed my family! <br/>
+                    <p id="text">Summer, next time we're hiding in a chlorkian echo nest, can you do me a favour and turn your ringer off?! I just killed my family! <br/>
                         
                     I don’t care who they were! They're robots Morty! It's okay to shoot them! They're just robots! Alien Invasion Tomato Monster Mexican Armada Brothers Who Are Just Regular Brothers Running In A Van From An Asteroid And All Sorts Of Things: The Movie. <br/>
 
