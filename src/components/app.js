@@ -27,9 +27,10 @@ export default class App extends Component {
               <Route path="/menu" component={MainMenuPage} />
               <Route path="/contact" component={Contact} />
             </Switch>
-            <FooterContainer />
+            
           </div>
         </Router>
+        <FooterContainer />
       </div>
     );
   }
