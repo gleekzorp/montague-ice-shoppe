@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import FooterLogo from "../../static/assets/images/white-logo.png";
 
 export default class FooterContainer extends Component {
     render() {
         return (
             <div className="footer">
                 <div className="white-logo-footer">
-                    <img src="white-logo.png" alt="logo"/>
+                    <img src={FooterLogo} alt="new pic"/>
                 </div>
                 <div className="links-footer">
                     <hr className="line_1" />
