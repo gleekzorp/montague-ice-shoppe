@@ -26,3 +26,14 @@ body {
     display: grid;
     justify-items: center;
 }
+
+
+.homeWrapper {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 1000px;
+}
+
