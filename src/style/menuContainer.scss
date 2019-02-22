@@ -1,0 +1,44 @@
+.mainContainer {
+    color: #707070;
+    width: 80vw;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 150px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.header {
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+
+.spacer {
+    width: 100%;
+    height: 60px;
+}
+
+.flavors {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-size: 4.3em;
+    letter-spacing: 15px;
+    height: 67px;
+    
+    width: 300px;
+    border-bottom: solid 2px #707070;
+}
+
+.gridContainer {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    grid-row-gap: 100px;
+    justify-items: center;
+}

@@ -1,6 +1,6 @@
 .about-page {
     display: flex;
-    width: 800px;
+    width: 80vw;
     flex-direction: column;
     justify-content: space-around;
     height: 80vh;
@@ -8,12 +8,12 @@
 
 .about-module {
     display: flex;
-    
+    height: 80%;
+    justify-content: space-around;
 }
 
-.about-page > .about-module img {
-    width: 100px;
-    height: 100%;
+.about-page > .about-module > .company-picture img {
+    height: 90%;
     margin: 20px;
 }
 
@@ -21,5 +21,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
     margin: 20px;
 }
+
+.about-page > .about-module > .ice-cream-picture img {
+    height: 290px;
+} 
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page > .about-module > .about-text > .head1 {
+    display: flex;
+    justify-content: center;
+}
+
+.about-page > .about-module > .about-text > .head2 {
+    display: flex;
+    justify-content: center;
+}
+
+#store-text {
+    display: flex;
+    justify-content: flex-end;
+}
+

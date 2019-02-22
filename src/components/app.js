@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 
 import NavigationContainer from "./navigation-bar/navigation-container";
 import FooterContainer from "./footer-container";
@@ -22,12 +27,9 @@ export default class App extends Component {
               <Route path="/menu" component={MainMenuPage} />
               <Route path="/contact" component={Contact} />
             </Switch>
-          <FooterContainer />
+            <FooterContainer />
           </div>
         </Router>
-
-
-
       </div>
     );
   }

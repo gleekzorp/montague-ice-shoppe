@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-import '../../style/contact-form.css';
+import '../../style/contact-form.scss';
 
 export default class ContactForm extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      fname: '',
-      lname: '',
+      fullname: '',
       email: '',
       message: ''
     }
@@ -21,22 +20,14 @@ export default class ContactForm extends Component {
 
   render() {
     return (
-      <div className="App">
-
-        <p>Contact Us</p>
+      <div className="Contact-Form">
   
         <div>
           <form action="#">
-            <label>First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="First Name" 
-              value={this.state.fname}
-              onChange={e => this.setState({ fname: e.target.value })}
-            />
-
-            <label>Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Last Name" 
-              value={this.state.lname}
-              onChange={e => this.setState({ lname: e.target.value })}
+            <label>Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name" 
+              value={this.state.fullname}
+              onChange={e => this.setState({ fullname: e.target.value })}
             />
         
             <label>Email</label>

@@ -1,6 +1,17 @@
 @import './menuContainer.scss';
 @import './menuItem.scss';
 @import "./about.scss";
+@import "./navigation-styles.scss";
+
+
+
+
+$main-text-color: #707070;
+$header-blue: #55AAFF;
+$main-text-font: 'Montserrat', sans-serif;
+$header-font: 'Roboto', sans-serif;
+
+
 
 html {
     font-size: 62.5%; // 1rem is 10px
@@ -12,8 +23,8 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
-    // background-color: #fdfdfd;
+    font-family: $main-text-font;
+    background-color: #fdfdfd;
 }
 
 body {
@@ -32,22 +43,11 @@ body {
     justify-items: center;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.blue-logo img {
-    width: 100%;
-    height: 50px;
-}
-
 .footer {
     background-color: #55AAFF;
     height: 100%;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $main-text-font;
     font-size: 1em;
     letter-spacing: 2px;
     display: flex;
@@ -80,17 +80,55 @@ body {
     justify-content: space-around;
 }
 
-.line_1, .line_2 {
-    height: 50px;
-    width: 100%;
-}
+
   
 .homeWrapper {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     justify-content: center;
     align-items: center;
     margin: 0;
-    width: 1000px;
+    width: 80vw;
 }
+
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.homeContent > h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $header-blue;
+    font-family: $header-font;
+    font-size: 6em;
+}
+
+.homeContent > h1:before,
+h1:after {
+   content: '';
+   border-top: 2px solid;
+   margin: 0 20px 0 0;
+   flex: 1 0 20px;
+}
+
+.homeContent > h1:after {
+   margin: 0 0 0 20px;
+}
+
+.homeContent > p {
+    color: $main-text-color;
+    font-family: $main-text-font;
+    font-size: 2em;
+}
+
+.about-module  h1 {
+    color: $header-blue;
+}
+
 
