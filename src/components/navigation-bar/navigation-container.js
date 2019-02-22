@@ -7,7 +7,6 @@ export default class NavigationContainer extends Component {
     return (
       <div className="nav-container">
           <div className="blue-logo">
-              <img src="blue-logo.png" alt="changeLogos"/>
               <img src={Logo} alt="logo"/>
           </div>
           <div className="links">

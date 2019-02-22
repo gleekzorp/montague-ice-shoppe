@@ -24,7 +24,7 @@ html {
     padding: 0;
     box-sizing: inherit;
     font-family: $main-text-font;
-    background-color: #fdfdfd;
+    // background-color: #fdfdfd;
 }
 
 body {
@@ -54,6 +54,7 @@ body {
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .footer > .white-logo-footer {

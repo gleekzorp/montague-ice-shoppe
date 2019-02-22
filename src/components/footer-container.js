@@ -13,11 +13,11 @@ export default class FooterContainer extends Component {
                     <hr className="line_1" />
                     <div className="nav-link"><NavLink exact to="/">HOME</NavLink></div>
                     {/* dot */}
-                    <div className="nav-link"><NavLink exact to="/about-us">ABOUT US</NavLink></div>
+                    <div className="nav-link"><NavLink exact to="/about">ABOUT US</NavLink></div>
                     {/* dot */}
                     <div className="nav-link"><NavLink exact to="/menu">MENU</NavLink></div>
                     {/* dot */}
-                    <div className="nav-link"><NavLink exact to="/contact-us">CONTACT</NavLink></div>
+                    <div className="nav-link"><NavLink exact to="/contact">CONTACT</NavLink></div>
                     <hr className="line_2" />
                 </div>
             </div>
