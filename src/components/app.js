@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import NavigationContainer from "./navigation-bar/navigation-container";
+import FooterContainer from './navigation-bar/navigation-container';
 import Home from "./home";
 import MainMenuPage from "./menu/main"
 import About from './pages/about'
@@ -29,3 +30,9 @@ export default class App extends Component {
     );
   }
 }
+
+
+
+
+
+
