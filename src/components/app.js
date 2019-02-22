@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 
 import NavigationContainer from "./navigation-bar/navigation-container";
-import FooterContainer from "./navigation-bar/navigation-container";
+// import FooterContainer from "./navigation-bar/navigation-container";
 import Home from "./home";
 import MainMenuPage from "./menu/main";
 import About from "./pages/about";

@@ -2,6 +2,14 @@
 @import './menuItem.scss';
 @import "./about.scss";
 
+
+$main-text-color: #707070;
+$header-blue: #55AAFF;
+$main-text-font: 'Montserrat', sans-serif;
+$header-font: 'Roboto', sans-serif;
+
+
+
 html {
     font-size: 62.5%; // 1rem is 10px
 }
@@ -12,7 +20,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
+    font-family: $main-text-font;
 }
 
 body {
@@ -49,7 +57,7 @@ body {
 .footer {
     background-color: #55AAFF;
     height: 400px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $main-text-font;
     font-size: 1em;
     letter-spacing: 2px;
     display: flex;
@@ -83,6 +91,15 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    width: 1000px;
+    width: 80vw;
 }
 
+.homeContent > h1 {
+    color: $header-blue;
+    font-family: $header-font;
+}
+
+.homeContent > p {
+    color: $main-text-color;
+    font-family: $main-text-font;
+}
