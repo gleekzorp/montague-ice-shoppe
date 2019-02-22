@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
 import NavigationContainer from "./navigation-bar/navigation-container";
-import FooterContainer from './navigation-bar/navigation-container';
+import FooterContainer from "./navigation-bar/navigation-container";
 import Home from "./home";
-import MainMenuPage from "./menu/main"
-import About from './pages/about'
+import MainMenuPage from "./menu/main";
+import About from "./pages/about";
 import Contact from "./contact-items/contact-container";
+
 
 export default class App extends Component {
   render() {
@@ -13,11 +14,7 @@ export default class App extends Component {
       <div className='app'>
         <Router>
           <div>
-
             <NavigationContainer />
-
-            <hr/>
-
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
