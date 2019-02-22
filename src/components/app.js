@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -6,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import NavigationContainer from "./navigation-bar/navigation-container";
-// import FooterContainer from "./navigation-bar/navigation-container";
+import FooterContainer from "./footer-container";
 import Home from "./home";
 import MainMenuPage from "./menu/main";
 import About from "./pages/about";
@@ -26,6 +27,7 @@ export default class App extends Component {
               <Route path="/menu" component={MainMenuPage} />
               <Route path="/contact" component={Contact} />
             </Switch>
+            <FooterContainer />
           </div>
         </Router>
       </div>
