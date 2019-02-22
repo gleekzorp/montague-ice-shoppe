@@ -6,7 +6,6 @@ import MainMenuPage from "./menu/main"
 import About from './pages/about'
 import Contact from "./contact-items/contact-container";
 
-
 export default class App extends Component {
   render() {
     return (
