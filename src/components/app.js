@@ -3,7 +3,7 @@ import NavigationContainer from './navigation-bar/navigation-container';
 
 import Home from "./home";
 import About from "./about-us";
-import Menu from "./menu";
+import Menu from "./menu/main";
 import Contact from "./contact-us";
 
 export default class App extends Component {
