@@ -26,3 +26,25 @@ body {
     display: grid;
     justify-items: center;
 }
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blue-logo img {
+    width: 100%;
+    height: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line_1, .line_2 {
+    height: 50px;
+    width: 100%;
+}
+
