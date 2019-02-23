@@ -1,0 +1,47 @@
+$main-text-color: #707070;
+$header-blue: #55AAFF;
+$main-text-font: 'Montserrat', sans-serif;
+$header-font: 'Roboto', sans-serif;
+$footer-image-color: #acd4ff;
+
+.footer {
+    background-color: $header-blue;
+    height: 100%;
+    width: 100%;
+    font-family: $main-text-font;
+    font-size: 1em;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.footer > .white-logo-footer {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    opacity: 0.5;
+}
+
+
+.footer > .white-logo-footer img {
+    height: 150px;
+    padding: 20px;
+}
+
+
+.footer > .links-footer {
+    font-family: $main-text-font;
+    font-size: 1em;
+    letter-spacing: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .links-footer > .nav-link a {
+    font-weight: 900;
+    color: $footer-image-color;
+}

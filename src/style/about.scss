@@ -1,3 +1,8 @@
+$main-text-color: #707070;
+$header-blue: #55AAFF;
+$main-text-font: 'Montserrat', sans-serif;
+$header-font: 'Roboto', sans-serif;
+
 .about-page {
     display: flex;
     width: 80vw;
@@ -10,6 +15,10 @@
     display: flex;
     height: 80%;
     justify-content: space-around;
+}
+
+.about-module h1 {
+    color: $header-blue;
 }
 
 .about-page > .about-module > .company-picture img {

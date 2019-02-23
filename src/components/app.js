@@ -7,10 +7,10 @@ import {
 } from 'react-router-dom';
 
 import NavigationContainer from "./navigation-bar/navigation-container";
-import FooterContainer from "./footer-container";
-import Home from "./home";
+import FooterContainer from "./footer/footer-container";
+import Home from "./home/home";
 import MainMenuPage from "./menu/main";
-import About from "./pages/about";
+import About from "./about/about";
 import Contact from "./contact-items/contact-container";
 
 
@@ -27,7 +27,6 @@ export default class App extends Component {
               <Route path="/menu" component={MainMenuPage} />
               <Route path="/contact" component={Contact} />
             </Switch>
-            
           </div>
         </Router>
         <FooterContainer />

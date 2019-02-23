@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from './blue-logo.png';
+import Logo from '../../../static/assets/images/blue-logo.png';
 
 export default class NavigationContainer extends Component {
   render() {

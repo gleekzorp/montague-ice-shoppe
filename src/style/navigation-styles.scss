@@ -1,8 +1,13 @@
+$main-text-color: #707070;
+$header-blue: #55AAFF;
+$main-text-font: 'Montserrat', sans-serif;
+$header-font: 'Roboto', sans-serif;
+
 .nav-container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-bottom: #55AAFF 2px solid;
+    border-bottom: $header-blue 2px solid;
     margin: 20px;
 }
 
@@ -31,7 +36,7 @@
 .links:before,
 .links:after {
     content: '';
-    border-top: #55AAFF 2px solid;
+    border-top: $header-blue 2px solid;
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
@@ -43,9 +48,9 @@
 
 .nav-link{
     width: 100px;
-    color: #707070;
+    color: $main-text-color;
 }
 
 .nav-link div{
-    color: #707070;
+    color: $main-text-color;
 }
